@@ -1,0 +1,10 @@
+.navbar {
+  height: 10px;
+  background-color: white;
+  border: none;
+  color: blue;
+  z-index: 50;
+  transition: background-color 1s ease 0s;
+  position: fixed !important;
+
+}
