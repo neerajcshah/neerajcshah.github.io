@@ -5,5 +5,13 @@
 }
 
 #intro p {
-  border-left: 4px dotted blue;    
+  border-left: 4px dotted blue;
+}
+
+#list1 p {
+  border-right: 4px dotted blue;    
+}
+
+#list2 p {
+  border-left: 4px dotted blue;
 }
