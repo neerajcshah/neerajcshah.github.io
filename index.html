@@ -7,6 +7,8 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/1ffda395c8.js"></script>
+
 <head>
   <title>Neeraj  Shah</title>
 </head>
@@ -28,10 +30,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#more">Learn More</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -63,14 +62,32 @@
       problem-solve and learn new things.
     </p>
   </div>
-  <!-- About Section -->
+
+  <!--Icons/Links -->
   <div class="row">
-    <section id="projects" class="col">
+    <div class="col-md-8">
+      <ul class="list-inline">
+        <li class="list-inline-item">
+         <a href="static/neerajresume.pdf" download="neerajresume" class="btn" ><i class="fas fa-file-alt"></i> Resume</a>
+        </li>
+        <li class="list-inline-item">
+         <a href="http://www.github.com/neerajcshah" class="btn"><i class="fab fa-github"></i> Github</a>
+        </li>
+        <li class="list-inline-item">
+         <a href="https://www.linkedin.com/in/neeraj-shah-9b3769113/" class="btn"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- About Section -->
+  <div class="row row justify-content-center" id='more'>
+    <section id="projects" class="col-md-4">
       <h4 align = "left"> Projects </h4>
       <br>
+      <div id="list1" align = "left">
       <ol>
-        <li><p><em><a href=href="https://scholarship.tricolib.brynmawr.edu/handle/10066/21572" target="_blank"> Swarthmore Senior Thesis</span></a></em>
-          <a href=href="https://scholarship.tricolib.brynmawr.edu/handle/10066/21572" target="_blank"> Live RSSI Mapping System </span></a>
+        <li><p><em><a href="https://scholarship.tricolib.brynmawr.edu/handle/10066/21572" target="_blank"> Swarthmore Senior Thesis</span></a></em>
+          <a href="https://scholarship.tricolib.brynmawr.edu/handle/10066/21572" target="_blank"> Live RSSI Mapping System </span></a>
         is a tool to monitor and display signal strength in an
         intuitive format with Tim Nguyen</p></li>
 
@@ -84,17 +101,19 @@
         a start-up that seek to improve colored children's literacy.</p></li>
 
         <li><p><em><a href="https://chess.com" target="_blank"> Chess Enthusiast </span></a></em>
-        I love chess. In high school, I used to play bughouse with some friends
+        I love chess. In high school, I used to play bughouse with some friends.
+        I enjoy solving tactics and playing games with new people.
         </p></li>
 
         <li><p><em><a href="https://quantopian.com" target="_blank"> Quantitative Algorithm Builder </span></a></em>
         Learned how to quant trade from scratch.
         </p></li>
       </ol>
+      </div>
     </section>
 
     <!--Experiences Section-->
-    <section id="experiences" class="col">
+    <section id="experiences" class="col-md-4">
       <h4 align = "right"> Experiences </h4>
       <br>
       <div id="list2" align = "left">
@@ -116,6 +135,10 @@
     </div>
     </section>
   </div>
+
+  <section id="contact">
+    neerajcshah [at] gmail [dot] com
+  </section>
 </body>
 
 </html>
